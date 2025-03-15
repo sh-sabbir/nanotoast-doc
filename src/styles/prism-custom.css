@@ -1,0 +1,67 @@
+pre[class*="language-"] {
+  background: #1a1a1a !important;
+  padding: 1.5rem !important;
+  margin: 0 !important;
+  overflow: auto;
+  font-size: 0.875rem !important;
+}
+
+code[class*="language-"] {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-size: 0.875rem !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a737d !important;
+}
+
+.token.function {
+  color: #79b8ff !important;
+}
+
+.token.keyword {
+  color: #f97583 !important;
+}
+
+.token.string {
+  color: #9ecbff !important;
+}
+
+.token.number {
+  color: #79b8ff !important;
+}
+
+.token.boolean {
+  color: #f97583 !important;
+}
+
+.token.operator {
+  color: #e1e4e8 !important;
+}
+
+.token.punctuation {
+  color: #e1e4e8 !important;
+}
+
+.token.property {
+  color: #79b8ff !important;
+}
+
+.token.tag {
+  color: #85e89d !important;
+}
+
+.token.attr-name {
+  color: #b392f0 !important;
+}
+
+.token.attr-value {
+  color: #9ecbff !important;
+}
+
+.token.class-name {
+  color: #b392f0 !important;
+} 
