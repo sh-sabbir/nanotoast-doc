@@ -12,8 +12,16 @@ const signika = Signika({
 });
 
 export const metadata: Metadata = {
-  title: "Nanotoast - A minimal toast notification library for React",
-  description: "A minimal toast notification library for React",
+  title: "Nanotoast - Customizable, Lightweight JS Toast Notifications",
+  description: "A lightweight and customizable toast notification library for JavaScript with support for success, error, info, warning, message descriptions, async promise handling, and positioning.",
+  icons: {
+    icon: [
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
@@ -23,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${signika.variable}`}>
+      <body className={`bg-[#FEFAE0] bg-[radial-gradient(#3818051a_1px,transparent_1px)] [background-size:16px_16px] ${inter.className} ${signika.variable}`}>
         <Providers>
           {children}
         </Providers>

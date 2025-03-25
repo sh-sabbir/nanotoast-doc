@@ -1,0 +1,20 @@
+---
+description: Structure and Import Rules
+globs: "**/*.{js,ts,jsx,tsx,mdx,css}"
+alwaysApply: false
+---
+
+# Specific Rules to Prevent Full Rewrites
+- Restrict AI from rewriting components entirely when modifying directory structure.
+- Focus only on updating import paths and file references when changing folder hierarchy.
+- Maintain the existing structure and logic of components during such changes.
+
+# Folder Structure Modifications
+- Use lowercase with dashes for new directories and maintain this style (e.g., components/auth-wizard).
+- Organize by feature rather than type (e.g., group related components, hooks, styles).
+- Keep each module's structure intact, just updating directory paths to reflect the new structure.
+
+# General Conventions
+- Prefer named exports for components to ensure easy refactoring.
+- Use TypeScript interfaces for components and props to maintain type safety.
+- All path changes should use aliases where possible to minimize the need for component updates.

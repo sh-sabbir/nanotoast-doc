@@ -8,9 +8,11 @@
 
 @theme {
   --color-primary: #381805;
+  --color-tertiary: #d7a96f;
   --color-brand: #BA814A;
   --color-brand-alt: #FFEAC4;
   --color-chinese-black: #171717;
+  --color-table-bg: #fdf6e3;
   
   --spacing-38: 9.5rem;
 }
@@ -31,7 +33,47 @@
 }
 
 body {
-  background: var(--background);
+  background-color: #FEFAE0;
+  background-image: radial-gradient(#3818051a 1px, transparent 1px);
+  background-size: 16px 16px;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.dotted {
+  background-image: linear-gradient(var(--color-brand) 33%, hsla(0, 0%, 100%, 0) 0);
+  background-size: 1px 4px;
+}
+
+.dotted-left {
+  background-position: 0;
+  background-repeat: repeat-y;
+}
+
+.dotted-right {
+  background-position: 100%;
+  background-repeat: repeat-y;
+}
+
+.dotted-bottom {
+  background-position: bottom
+}
+
+.dotted-bottom,.dotted-top {
+  background-image: repeating-linear-gradient(90deg,var(--color-brand) 0,var(--color-brand) 1px,transparent 1px,transparent 4px);
+  background-size: 100% 1px;
+  background-repeat: no-repeat
+}
+
+.dotted-top {
+  background-position: top
+}
+
+.code, p>code {
+  border-radius: .375rem;
+  border-width: 1px;
+  border-color: var(--color-tertiary);
+  background-color: var(--color-brand-alt);
+  padding: 2px 3.6px;
+  font-size: .8571429em;
 }

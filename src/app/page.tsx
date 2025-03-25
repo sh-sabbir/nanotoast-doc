@@ -35,7 +35,7 @@ export default function Home() {
     return messages[Math.floor(Math.random() * messages.length)];
   };
   return (
-    <div className="min-h-screen bg-[#FEFAE0] bg-[radial-gradient(#3818051a_1px,transparent_1px)] [background-size:16px_16px]">
+    <div className="min-h-screen">
       <main className="min-h-[calc(100vh-73px)] flex flex-col items-center justify-center p-6 px-8 md:p-16">
         <div className="max-w-4xl w-full space-y-4 text-center">
           <header className="space-y-4">
