@@ -7,8 +7,8 @@ declare module '@iamsabbir/nanotoast' {
 
   interface ToastPromiseOptions<T> extends ToastOptions {
     loading?: string;
-    success?: string;
-    error?: string;
+    success?: (data: T) => string;
+    error?: (error: any) => string;
   }
 
   /**

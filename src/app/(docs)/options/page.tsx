@@ -1,7 +1,6 @@
 import { CodeBlock } from '@/components/CodeBlock';
 import TableOfContents from "@/components/TableOfContents";
 import Section from "@/components/Section";
-import ToastButton from "@/components/ToastButton";
 import DocsNavigation from '@/components/DocsNavigation';
 import Tooltip from '@/components/Tooltip';
 
@@ -11,26 +10,6 @@ export const metadata = {
 
 const installCode = `npm install @iamsabbir/nanotoast`;
 const installCodeYarn = `yarn add @iamsabbir/nanotoast`;
-
-const importCode = `import toast from "@iamsabbir/nanotoast";
-import "@iamsabbir/nanotoast/src/styles.css"; // Ensure you import styles`;
-
-const usageCode = `<script setup>
-${importCode}
-
-const showToast = () => {
-  toast.success("Hello from Vue!");
-};
-</script>
-
-<template>
-  <button @click="showToast">Show Toast</button>
-</template>`;
-
-const moreUsageCode = `toast.success("Vue is awesome!");
-toast.error("Vue is not awesome!");
-toast.warning("Vue is okay!");
-toast.info("Vue is great!");`;
 
 export default function GettingStarted() {
   const tableOfContents = [

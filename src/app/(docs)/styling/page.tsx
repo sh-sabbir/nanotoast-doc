@@ -22,7 +22,7 @@ export default function GettingStarted() {
         <h1 className="text-3xl font-title font-medium mb-4">Styling</h1>
 
         <p className="text-base mb-12">
-          NanoToast is designed to be easily customizable. You can change the colors, fonts, and other styles to match your design. But a small headsup, NanoToast is already nicely styled, so you don't need to do much to make it look good.
+          ${`NanoToast is designed to be easily customizable. You can change the colors, fonts, and other styles to match your design. But a small headsup, NanoToast is already nicely styled, so you don't need to do much to make it look good.`}
         </p>
 
         <Section title="Style the toast!">
