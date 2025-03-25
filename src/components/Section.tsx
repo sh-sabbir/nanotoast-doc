@@ -15,8 +15,8 @@ export default function Section({ id, title, children }: SectionProps) {
     const sectionId = id || slugify(title);
 
     return (
-        <section id={sectionId} className="scroll-mt-8">
-            <h2 className="text-2xl font-medium mb-4">{title}</h2>
+        <section id={sectionId} className="scroll-mt-8 mb-16 mt-12">
+            <h2 className="text-2xl font-title font-medium mb-4">{title}</h2>
             {children}
         </section>
     );
