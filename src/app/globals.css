@@ -13,6 +13,8 @@
   --color-brand-alt: #FFEAC4;
   --color-chinese-black: #171717;
   --color-table-bg: #fdf6e3;
+  --color-el-hover-bg: #e9d1af;
+  --color-el-active-bg: #e3c59b;
   
   --spacing-38: 9.5rem;
 }

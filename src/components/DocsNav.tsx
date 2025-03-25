@@ -59,7 +59,7 @@ export default function DocsNav() {
     const pathname = usePathname();
 
     return (
-        <nav className="pt-5 pb-4 dotted dotted-right bg-main fixed top-0 h-screen hidden w-[240px] lg:flex flex-col">
+        <nav className="pt-5 pb-4 dotted dotted-right bg-brand-alt fixed top-0 h-screen hidden w-[240px] lg:flex flex-col">
             <div className="flex flex-col px-4">
                 <div className="flex gap-1 items-baseline pb-3.5 dotted-bottom">
                     <a className="flex items-center gap-2" href="/">
