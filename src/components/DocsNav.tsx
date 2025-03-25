@@ -18,7 +18,7 @@ const links = [
         title: "Usage",
         subLinks: [
             {
-                title: "Usage",
+                title: "Basic Usage",
                 href: "/usage",
             },
             {
@@ -70,7 +70,7 @@ export default function DocsNav() {
             <div className="grow overflow-y-auto pt-5 px-5">
                 {links.map((link, index) => (
                     <div key={index}>
-                        <span className="text-xs text-tertiary font-medium inline-block mb-2">{link.title}</span>
+                        <span className="text-xs text-tertiary font-normal inline-block mb-2">{link.title}</span>
 
                         {link.subLinks && (
                             <ul className="space-y-1">
