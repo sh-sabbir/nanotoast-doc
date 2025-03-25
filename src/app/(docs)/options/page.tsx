@@ -34,9 +34,8 @@ toast.info("Vue is great!");`;
 
 export default function GettingStarted() {
   const tableOfContents = [
-    { href: "#installation", label: "Installation" },
-    { href: "#render-a-toast", label: "Render a toast" },
-    { href: "#examples", label: "Examples" }
+    { href: "#available-options", label: "Available options" },
+    { href: "#installation", label: "Installation" }
   ];
 
   return (
